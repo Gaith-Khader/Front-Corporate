@@ -1,0 +1,1165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 65%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    list-style-type:none;
+}
+body{
+    color: #677788;
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+::selection{
+    color: #377dff;
+    background-color: rgba(55,125,255,.1);
+}
+img , a{
+    user-select: none; 
+}
+
+
+
+/* navbar - start */
+nav{
+    padding: 10px 0;
+    position:fixed !important;
+    z-index: 9999;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 11px 1px #e8eeee;
+}
+.navbar button:focus{
+    border: 0;
+}
+.navbar span{
+    font-size: 14px !important;
+}
+/* navbar - end */
+
+/* header - start */
+.header{
+    height: 100vh;
+    padding-top: 60px;
+}
+.header .header-content{
+    float: left;
+    width: 30%;
+    text-align: justify;
+    margin-top: 220px;
+    margin-left: 380px;
+}
+.header .header-img{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.header .header-content h2{
+    font-size: 56px;
+    color: #1e2022;
+}
+.header .header-content span{
+    text-transform: capitalize;
+}
+.header .header-content h2 .blue-text{
+    color: #377dff;
+}
+.header .header-content p{
+    color:#677788;
+    font-size: 21px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.header .header-content .header-bt{
+    margin-top: 50px;
+}
+.header .header-content .header-bt a{
+    padding: 10px;
+    border-radius: 5px;
+    color: #677788;
+}
+.header .header-content .header-bt .bt-blue{
+    background-color: #377dff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 40px;
+}
+.header .header-bt a:hover{
+    color: #377dff ;
+}
+.header .header-bt .bt-blue:hover{
+    background-color: blue;
+    color: #fff;
+}
+/* header - end */
+
+/* site-parts - start */
+.site-parts{
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+.site-parts .parts-desc h2{
+    text-align: center;
+    font-size: 28px;
+    color: #1e2022;
+    margin-bottom: 20px;
+}
+.site-parts .parts-desc ul{
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.site-parts .parts-desc ul span{
+    text-transform: capitalize;
+}
+.site-parts .parts-desc ul li{
+    display: inline-block;
+    width: fit-content;
+}
+.site-parts .parts-desc ul li p{
+    display: inline;
+    padding: 0 10px;
+}
+.site-parts .parts-desc ul li i{
+    color: #377dff;
+}
+.site-parts .card span{
+    text-transform: capitalize;
+}
+.site-parts .cards{
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.site-parts .cards .card{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 11px 1px #e8eeee;
+    margin-bottom: 20px;
+}
+.site-parts .cards .card .card-img{
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 4px;
+}
+.site-parts .cards .card .card-body h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #1e2022;
+}
+.site-parts .cards .card .card-body p{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.site-parts .cards .card .card-body .card-para{
+    font-size: 16px;
+}
+.site-parts .card .card-body ul{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.site-parts .card .card-body li i{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.site-parts .card .card-footer{
+    border-top:1px solid rgba(33, 50, 91, 0.1);
+    padding: 15px;
+}
+.site-parts .card .card-footer a{
+    color: #677788;
+}
+.site-parts .card .card-footer i{
+    font-size: 14px;
+}
+.site-parts .card .card-footer a:hover{
+    color: #377dff;
+}
+/* site-parts - end */
+
+/* experience - start */
+.experience{
+    padding: 120px 0;
+    margin: 0 72px;
+    background-color: #F7FAFF;
+}
+.experience span{
+    text-transform: capitalize;
+}
+.experience .exp-subtilte h2{
+    text-align: center;
+    font-size: 28px;
+    color: #1e2022;
+    margin-bottom: 15px;
+}
+.experience .exp-subtilte .exp-bara{
+    text-align: center;
+    font-size: 16px;
+    color: #677788;
+    margin-bottom: 40px;
+}
+.experience .exp-subtilte ul{
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.experience .exp-subtilte ul li{
+    display: inline-block;
+    width: fit-content;
+}
+.experience .exp-subtilte ul li p{
+    display: inline;
+    padding: 0 10px;
+}
+.experience .exp-subtilte ul li i{
+    color: #377dff;
+}
+                /* exp-img */
+.experience .exp-img{
+    float: left;
+    width: 60%;
+}
+.experience .exp-img img{
+    width: 90%;
+    box-shadow: 1px 1px 11px 1px #e8eeee;
+}
+                /* exp-desc */
+
+.experience .exp-desc{
+    float: left;
+    width: 40%;
+}
+.experience .exp-desc h2{
+    font-size: 28px;
+    color: #1e2022;
+}
+.experience .exp-desc .para-exp-desc{
+    line-height: 24px;
+    text-align: justify;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.experience .exp-desc ul{
+    margin-bottom: 50px;
+}
+.experience .exp-desc ul li{
+    margin-bottom: 12px;
+}
+.experience .exp-desc ul li p{
+    display: inline;
+}
+.experience .exp-desc ul li i{
+    margin-right: 10px;
+    color: #377dff;
+}
+.experience .exp-desc a{
+    color: #fff;
+    background-color: #377dff;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+                /* exp-footer */
+.experience .exp-footer{
+    float: right;
+    width: 40%;
+    margin-top: 40px;
+    border-top: 1px solid rgba(33, 50, 91, 0.1);
+}
+.experience .exp-footer p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.experience .exp-footer img{
+    width: 15%;
+    padding-right: 9%;
+}
+/* experience - end */
+
+/* mailchimp - start */
+.mailchimp{
+    padding: 120px 0;
+    margin: auto;
+}
+.mailchimp span{
+    text-transform: capitalize;
+}
+.mailchimp .chimp-img{
+    float: left;
+    width: 30%;
+    margin-left: 60px;
+}
+.mailchimp .chimp-img img{
+    border-radius: 10px;
+    width: 100%;
+}
+.mailchimp .chimp-desc{
+    float: left;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.mailchimp .chimp-desc img{
+    width: 20%;
+}
+.mailchimp .chimp-desc p{
+    font-size: 28px;
+    color:#1e2022;
+    line-height: 42px;
+    text-align: justify;
+    margin: 20px 0;
+}
+.mailchimp .chimp-desc h4{
+    font-size: 20px;
+    color: #1e2022;
+    margin-bottom: 10px;
+}
+.mailchimp .chimp-desc h5{
+    font-size: 14px;
+    color: #677788;
+    font-weight: 400;
+}
+/* mailchimp - end */
+
+/* statics - start */
+.statics{
+    background-color: #F7FAFF;
+    padding: 90px 0;
+    margin: 0 70px;
+    border-radius: 10px;
+}
+.statics .div-row{
+    text-align: center;
+    margin: 0 30px;
+}
+.statics .div-row .static{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+}
+.statics .div-row .static h2{
+    font-size: 56px;
+    color: #1e2022;
+}
+.statics .div-row .static h2 i{
+    font-size: 40px;
+    font-weight: 600;
+}
+.statics .div-row .static p{
+    font-size: 16px;
+    color: #677788;
+    line-height: 24px;
+}
+.statics .div-row .static .down{
+    color: #ed4c78;
+}
+.statics .div-row .static .up{
+    color: #00c9a7;
+}
+/* statics - end */
+
+/* discover - start */
+.discover{
+    overflow: hidden;
+    padding: 150px 0;
+}
+.discover span{
+    text-transform: capitalize;
+}
+.discover h2{
+    text-align: center;
+    font-size: 28px;
+    color: #1e2022;
+    padding: 30px 0;
+    font-weight: 600; 
+}
+.discover .all-dis-parts{
+    overflow: hidden;
+}
+.discover .dis-part{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    margin-bottom: 60px;
+}
+.discover .dis-part img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.discover .dis-part h3{
+    font-size: 13px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+.discover .dis-part h4{
+    font-size: 18px;
+    color: #1e2022;
+    margin-bottom: 5px;
+}
+.discover .dis-part p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.dis-part:hover{
+    cursor: pointer;
+}
+.dis-part:hover h4{
+    color: #377dff;
+}
+.discover .discover-footer{
+    width: fit-content;
+    margin: auto;
+    overflow: hidden;
+}
+.discover .discover-footer p{
+    border: 1px solid #677788;
+    padding: 10px;
+    border-radius: 50px;
+}
+.discover .discover-footer p a{
+    color: #377dff;
+}
+.discover .discover-footer p i{
+    font-size: 12px;
+}
+/* discover - end */
+
+/* footer-top - start */
+.footer-top{
+    background-color: #F7FAFF;
+    padding: 60px 0;
+}
+.footer-top .container{
+    padding-bottom: 50px;
+    border-bottom:1px solid rgba(33, 50, 91, 0.1);
+}
+.footer-top span{
+    text-transform: capitalize;
+}
+.footer-top .main-fot .list{
+    float: left;
+    width: 18%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+.footer-top .main-fot .list .main-fot-img{
+    width: 50%;
+    margin-bottom: 8px;
+}
+.footer-top .main-fot .list p{
+    display: inline;
+}
+.footer-top .main-fot .list h3{
+    font-size: 16px;   
+    font-weight: 600;
+    color: #1e2022;
+}
+.footer-top .main-fot .list ul{
+    margin-top: 20px;
+}
+.footer-top .main-fot .list ul li{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer-top .main-fot .list ul a{
+    color: #677788;
+}
+.footer-top .main-fot .list ul li .hire{
+    background-color: #F5CA99;
+    border-radius: 50px;
+    padding: 2px 5px;
+    font-size: 13px;
+    font-weight: 900;
+}
+.footer-top .main-fot .list ul a:hover{
+    color: #377dff;
+
+}
+.footer-top .main-fot .list ul li .hire:hover{
+    background-color: yellow;
+}
+/* footer-top - end */
+
+/* footer-bottom - start */
+.footer-bottom{
+    background-color:rgb(247,250,255);
+}
+.footer-bottom span{
+    text-transform: capitalize;
+}
+            /* btc1 */
+.footer-bottom .bottom-content1{
+    float: left;
+    width: 80%;
+}
+.footer-bottom .bottom-content1 ul{
+    overflow: hidden;
+}
+.footer-bottom .bottom-content1 ul li{
+    float: left;
+    width: fit-content;
+    padding-right: 20px;
+}
+.footer-bottom .bottom-content1 ul li a{
+    color: #677788;
+}
+.footer-bottom .bottom-content1 ul li a:hover{
+    color: #377dff;
+}
+            /* btc2 */
+.footer-bottom .bottom-content2{
+    float: right;
+    width: 20%;
+}
+.footer-bottom .bottom-content2 ul li{
+    display: inline-block;
+    width: 15%;
+}
+.footer-bottom .bottom-content2 ul li a{
+    color: #677788;
+}
+.footer-bottom .bottom-content2 ul li a{
+    background-color: #e8eeee;
+    font-size: 12px;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer-bottom .bottom-content2 ul li a:hover{
+    background-color:  #677788;
+    color: #e8eeee;
+}
+            /* btc-end */
+.bottom-end{
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+.bottom-end p{
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* footer-bottom - end */
+
+
+
+/* smartphones - small */
+@media (max-width:576px){
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* navbar */
+    .navbar{
+        position:static;
+        margin-bottom: 10px;
+    }
+    .navbar .nav-logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .nav-logo img{
+        width: 35%;
+    }
+    .navbar .nav-content ul{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .navbar .nav-content ul li{
+        font-size: 12px;
+        padding-left: 0px;
+    }
+    .navbar .nav-content ul .buy-bt{
+        padding: 2px 6px;
+        border-radius: 5px;
+    }
+
+    /* header */
+    .header{
+        height: fit-content;
+        margin-bottom: 50px;
+        padding-top: 0;
+    }
+    .header .header-content{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .header .header-img{
+        display: none;
+        float: none;
+        width: 50%;
+    }
+    .header .header-content h2{
+        font-size: 36px;
+        color: #1e2022;
+    }
+    .header .header-content p{
+        color:#677788;
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .header .header-bt a{
+        border-radius: 5px;
+        color: #677788;
+        padding: 5px 10px;
+    }
+    .header .header-content .header-bt .bt-blue{
+        color: #fff;
+        padding: 5px 15px;
+    }
+    
+    /* site-parts */
+    .site-parts{
+        margin-bottom: 80px;
+    }
+    .site-parts .parts-desc h2{
+        font-size: 30px;
+    }
+    .site-parts .parts-desc ul{
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .site-parts .parts-desc ul li{
+        display: block;
+        margin: auto;
+        padding: 5px 0;
+    }
+    .site-parts .cards{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .site-parts .cards .card{
+        width: 100%;
+    }
+
+    /* experience */
+    .experience{
+        padding: 50px 0;
+        margin: 0 10px;
+    }
+    .experience .exp-subtilte h2{
+        font-size: 22px;
+    }
+    .experience .exp-img{
+        width: 100%;
+    }.experience .exp-img img{
+        width: 100%;
+        box-shadow: 10px 10px 11px 1px #e8eeee;
+    }
+    .experience .exp-desc{
+        width: 100%;
+    }
+    .experience .exp-desc h2{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .experience .exp-footer{
+        width: 100%;
+    }
+    .experience .exp-footer img{
+        width: 23%;
+    }
+
+    /* mailchimp */
+    .mailchimp{
+        padding: 50px 0;
+        margin: auto;
+    }
+    .mailchimp .chimp-img{
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .mailchimp .chimp-img img{
+        border-radius: 50%;
+        width: 40%;
+    }
+    .mailchimp .chimp-desc{
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .mailchimp .chimp-desc img{
+        width: 40%;
+    }
+    .mailchimp .chimp-desc p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .mailchimp .chimp-desc h4{
+        font-size: 16px;
+    }
+
+    /* statics */
+    .statics{
+        padding: 50px 0;
+        margin: 0 10px;
+        border-radius: 10px;
+    }
+    .statics .div-row{
+        margin: 0 30px;
+    }
+    .statics .div-row .static{
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 50px;
+    }
+    .statics .div-row .static h2{
+        font-size: 30px;
+    }
+    .statics .div-row .static h2 i{
+        font-size: 20px;
+    }
+
+    /* discover */
+    .discover{
+        padding: 15px 0;
+    }
+    .discover h2{
+        font-size: 20px;
+    }
+    .discover .dis-part{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    /* footer-top */
+    .footer-top .main-fot .list{
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .footer-top .main-fot .list .main-fot-img{
+        width: 40%;
+    }
+
+    /* footer-bottom */
+    .footer-bottom .bottom-content1{
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-bottom .bottom-content2{
+        float: right;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .bottom-end{
+        text-align: justify;
+        margin: 50px 0;
+        padding: 0 0px;
+    }
+    .bottom-end p{
+        font-size: 12px;
+    }
+}
+/* tablets - medium */
+@media (min-width:576px) and (max-width:992px){
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* navbar */
+    .navbar{
+        position:static;
+    }
+    .navbar .nav-logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .navbar .nav-logo img{
+        width: 30%;
+    }
+    .navbar .nav-content {
+        float: none;
+        margin: 5px 0;
+    }
+    .navbar .nav-content ul{
+        width: 100%;
+    }
+    .navbar .nav-content ul li{
+        float: none;
+        width: fit-content;
+        font-size: 16px;
+        padding-left: 0px;
+    }
+    .navbar .nav-content ul .buy-bt{
+        color: white;
+        background-color: #377dff;
+        padding: 3px 8px;
+        border-radius: 5px;
+    }
+
+    /* header */
+    .header{
+        height: fit-content;
+        margin: 0;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .header .header-content{
+        float: left;
+        width: 45%;
+        text-align: justify;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .header .header-img{
+        float: left;
+        width: 50%;
+    }
+    .header .header-img img{
+        width: 90%;
+    }
+    .header .header-content h2{
+        margin-top: 10px;
+        font-size: 36px;
+        color: #1e2022;
+    }
+    .header .header-content p{
+        color:#677788;
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .header .header-bt a{
+        border-radius: 5px;
+        color: #677788;
+        padding: 5px 10px;
+    }
+    .header .header-content .header-bt .bt-blue{
+        background-color: #377dff;
+        border-radius: 5px;
+        color: #fff;
+        padding: 5px 10px;
+    }
+
+    /* site-parts */
+    .site-parts{
+        margin-bottom: 80px;
+    }
+    .site-parts .parts-desc h2{
+        font-size: 30px;
+    }
+    .site-parts .parts-desc ul{
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .site-parts .parts-desc ul li{
+        margin: auto;
+        padding: 5px 0;
+    }
+    .site-parts .cards{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .site-parts .cards .card{
+        width: 47%;
+    }
+
+    /* experience */
+    .experience{
+        padding: 50px 0;
+        margin: 0 10px;
+    }
+    .experience .exp-subtilte h2{
+        font-size: 22px;
+    }
+    .experience .exp-img{
+        width: 100%;
+    }.experience .exp-img img{
+        width: 100%;
+        box-shadow: 10px 10px 11px 1px #e8eeee;
+    }
+    .experience .exp-desc{
+        width: 100%;
+    }
+    .experience .exp-desc h2{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .experience .exp-footer{
+        width: 100%;
+    }
+    .experience .exp-footer img{
+        width: 14%;
+    }
+
+    /* mailchimp */
+    .mailchimp{
+        padding: 50px 0;
+        margin: auto;
+    }
+    .mailchimp .chimp-img{
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .mailchimp .chimp-img img{
+        border-radius: 50%;
+        width: 40%;
+    }
+    .mailchimp .chimp-desc{
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .mailchimp .chimp-desc img{
+        width: 30%;
+    }
+    .mailchimp .chimp-desc p{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .mailchimp .chimp-desc h4{
+        font-size: 18px;
+    }
+    .mailchimp .chimp-desc h5{
+        font-size: 16px;
+    }
+
+    /* statics */
+    .statics{
+        padding: 50px 0;
+        margin: 0 10px;
+        border-radius: 10px;
+    }
+    .statics .div-row{
+        margin: 0 30px;
+    }
+    .statics .div-row .static{
+        width: 30%;
+        margin-left: 3%;
+        margin-bottom: 50px;
+    }
+    .statics .div-row .static h2{
+        font-size: 36px;
+    }
+    .statics .div-row .static h2 i{
+        font-size: 26px;
+    }
+    .statics .div-row .static p{
+        font-size: 15px;
+    }
+
+    /* discover */
+    .discover{
+        padding: 15px 0;
+    }
+    .discover h2{
+        font-size: 36px;
+    }
+    .discover .dis-part{
+        width: 47%;
+        margin-left: 3%;
+    }
+    .discover .discover-footer{
+        width: fit-content;
+        margin:auto;
+        margin-top: 500px;
+        overflow: hidden;
+    }
+
+    /* footer-top */
+    .footer-top .main-fot .list{
+        float: left;
+        width: 18%;
+        margin-left: 2%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .footer-top .main-fot .list .main-fot-img{
+        width: 60%;
+    }
+    .footer-top .main-fot .list ul li .hire{
+        padding: 2px 5px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    /* footer-bottom */
+    .footer-bottom .bottom-content1{
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-bottom .bottom-content2{
+        float: right;
+        width: 30%;
+        margin-bottom: 30px;
+    }
+    .bottom-end{
+        text-align: center;
+        margin: 50px 0;
+        padding: 0 0px;
+    }
+    .bottom-end p{
+        font-size: 14px;
+    }
+}
+/* macbook and other - large */
+@media (min-width:992px) and (max-width:1280px){
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+
+    /* navbar */
+    .navbar{
+        position:fixed;
+    }
+
+    .navbar .nav-logo{
+        float: left;
+        width: 30%;
+        margin-left: 60px;
+    }
+    .navbar .nav-logo img{
+        width: 30%;
+    }
+    .navbar .nav-content {
+        float: left;
+        width: 60%;
+        margin-top: 5px;
+    }
+    .navbar .nav-content ul li{
+        float: left;
+        width: fit-content;
+        margin-left: 26px;
+    }
+    .navbar .nav-content ul .buy-bt{
+        padding: 5px 6px;
+        border-radius: 5px;
+    }
+
+    /* header */
+    .header{
+        overflow: hidden;
+    }
+    .header .header-content{
+        float: left;
+        width: 48%;
+        text-align: justify;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .header .header-img{
+        float: left;
+        width: 50%;
+    }
+    .header .header-img img{
+        width: 100%;
+    }
+    .header .header-content h2{
+        margin: 30px 70px;
+        margin-top: 100px;
+        font-size: 52px;
+        color: #1e2022;
+    }
+    .header .header-content p{
+        color:#677788;
+        font-size: 22px;
+        margin: 70px;
+        margin-top: 10px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .header .header-bt{
+        margin: 0 70px;
+    }
+    .header .header-content .header-bt .bt-blue{
+        padding: 10px 20px;
+    }
+    
+    /* mailchimp */
+    .mailchimp .chimp-desc{
+        margin-top: 20px;
+    }
+
+    /* statics */
+    .statics .div-row .static h2{
+        font-size: 42px;
+    }
+    .statics .div-row .static h2 i{
+        font-size: 32px;
+    }
+
+    /* footer-top */
+
+    .footer-top .main-fot .list{
+        float: left;
+        width: 18%;
+        margin-left: 2%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .footer-top .main-fot .list .main-fot-img{
+        width: 60%;
+    }
+    
+    /* footer-bottom */
+    .footer-bottom .bottom-content1{
+        float: left;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .footer-bottom .bottom-content2{
+        float: right;
+        width: 20%;
+        margin-bottom: 30px;
+    }
+    .bottom-end{
+        text-align: center;
+        margin: 50px 0;
+        padding: 0 0px;
+    }
+    .bottom-end p{
+        font-size: 14px;
+    }
+}
